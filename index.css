@@ -1,0 +1,101 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 197, 131);
+}
+
+a:hover {
+    color:rgb(0, 255, 255);
+}
+
+a:active {
+    color:aliceblue;
+}
+
+a:visited {
+    color:rgb(0, 161, 108);
+}
+
+abbr {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-width: normal;
+    
+    /* same as above */
+    font: normal 14px Arial, Helvetica, sans-serif;
+
+    line-height: 1.2em;
+    margin: 1;
+}
+
+.theme {   
+    color: rgb(185, 181, 176);
+    margin: auto;
+    width: 80%;
+
+    border-top: 1px white solid;
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    border-left: 1px white solid;
+
+    /* same as above */
+    border-width: 1px;
+    border-radius: 15px;
+
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+
+    margin-top: 20px;
+}
+
+.theme h3 {
+    font-family: Tahoma;
+    font-width: 10;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+}
+
+.theme2 {
+    border: 1px dotted white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 81%;
+}
+
+.theme2 h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.theme2 ul {
+    padding: 0;
+    padding-left: 15px;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 0.1px;
+    list-style-image: url("check_img.png");
+}
+
+.theme2 li{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-bottom: dotted rgb(124, 124, 124);
+    border-width: 1px;
+}
